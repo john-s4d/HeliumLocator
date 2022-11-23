@@ -1,0 +1,11 @@
+# Run the following commands in a Terminal/PowerShell window 
+# in the unzipped folder path:
+
+conda create -n gpslink python=3.8.11 pip
+conda activate gpslink
+
+pip install py-make
+pymake install
+pymake run
+
+# Finally, open the main.ipynb notebook and run all cells.
